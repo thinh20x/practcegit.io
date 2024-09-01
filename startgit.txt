@@ -9,4 +9,4 @@ cmd: git push -u origin main
 //thêm file mới
 cmd: git add .
 cmd: git commit -m"cmt"
-cmd: gp
+cmd: git push                      // update changes 
