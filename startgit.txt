@@ -1,0 +1,3 @@
+cmd: git init //tại thư mục chứa working space
+cmd: git add . //chuyển qua stage area
+git
