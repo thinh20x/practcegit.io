@@ -1,3 +1,12 @@
-cmd: git init //tại thư mục chứa working space
-cmd: git add . //chuyển qua stage area
-git
+cmd: git init                        //tại thư mục chứa working space
+cmd: git add <filename>.xxx           //chuyển cái file cần lưu qua stage area
+cmd: git commit -m"comment"
+cmd: git log                         //check đã commit local repo chưa
+cmd:  git remote add origin https://github.com/..........// liên kết git hup với repo trong máy
+cmd: git push -u origin main        
+
+
+//thêm file mới
+cmd: git add .
+cmd: git commit -m"cmt"
+cmd: gp
